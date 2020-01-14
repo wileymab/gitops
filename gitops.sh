@@ -1,10 +1,6 @@
 #!/usr/bin/env bash
 # dependecies { curl }
 
-
-GITHUB_API_URL=https://github.8451.com/api/v3
-GITHUB_TOKEN=2d8c40567f93d92141dd4efaf2efec88322f5d2a
-
 function repo {
     case "${1}" in
         "create")
