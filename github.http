@@ -1,0 +1,8 @@
+
+
+@GITHUB_API_URL=https://github.8451.com/api/v3
+@GITHUB_TOKEN=2d8c40567f93d92141dd4efaf2efec88322f5d2a
+
+
+GET {{GITHUB_API_URL}}/users/m441527/repos
+Authorization: token {{GITHUB_TOKEN}}
