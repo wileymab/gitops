@@ -1,5 +1,0 @@
-
-
-
-GET {{GITHUB_API_URL}}/users/m441527/repos
-Authorization: token {{GITHUB_TOKEN}}
