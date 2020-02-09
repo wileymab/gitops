@@ -2,6 +2,7 @@ function _init {
     local scriptDir=$(dirname ${BASH_SOURCE[0]})
     source ${scriptDir}/api-utils.sh
 }
+_init
 
 function _create {
     apiCall POST user/repos "{\"name\":\"${1}\"}"
